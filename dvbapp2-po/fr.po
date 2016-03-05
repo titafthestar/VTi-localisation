@@ -42,20 +42,20 @@ msgstr ""
 msgid ""
 "\n"
 "Device : %s"
-msgstr ""
+msgstr "Périphérique :"
 
 #, python-format
 msgid ""
 "\n"
 "Device : /dev/%s"
-msgstr ""
+msgstr "Périphérique : /dev/%s"
 
 msgid ""
 "\n"
 "Do you want to exit?"
 msgstr ""
 "\n"
-"Voulez-vous quiiter?"
+"Voulez-vous quitter?"
 
 #
 msgid ""
@@ -111,7 +111,7 @@ msgid ""
 "Restore your STB with a new firmware."
 msgstr ""
 "\n"
-"Resturer votre STB avec un nouveau firmware."
+"Restaurer votre STB avec un nouveau firmware."
 
 #
 msgid ""
@@ -631,7 +631,7 @@ msgid "A/V-Receiver power on:"
 msgstr "Allumer récepteur A/V"
 
 msgid "A/V-Receiver toggle mute:"
-msgstr ""
+msgstr "Basculer récepteur A/V en muet"
 
 msgid "A/V-Receiver volume down:"
 msgstr "Diminuer volume récepteur A/V"
@@ -759,9 +759,9 @@ msgid ""
 "OK to close the video fine-tuning, or use the number keys to select other "
 "test screens."
 msgstr ""
-"Ajustez les paramètres des couleur de sorte que toutes les nuances de "
+"Ajustez les paramètres des couleurs de sorte que toutes les nuances de "
 "couleur soient distinguables, mais apparaissent comme saturées comme "
-"possible. Si vous êtes heureux avec le résultat, pressez OK pour fermer "
+"possible. Si vous êtes d'accord avec le résultat, pressez OK pour fermer "
 "l'accord fin vidéo, ou utilisez les touches numérique pour choisir d'autres "
 "écrans de test. "
 
@@ -795,7 +795,7 @@ msgid ""
 msgstr ""
 
 msgid "Agree"
-msgstr ""
+msgstr "D'accord"
 
 #
 msgid "Album"
@@ -919,11 +919,11 @@ msgid "Ask before shutdown:"
 msgstr "Demander avant d'éteindre:"
 
 msgid "Ask for deleting files after canceling timers"
-msgstr ""
+msgstr "Demander avant de supprimer les fichiers aprés l'annulation de la programmation"
 
 #
 msgid "Ask user"
-msgstr "Demande utilisateur"
+msgstr "Demander à l'utilisateur"
 
 #
 msgid "Aspect Ratio"
@@ -1111,11 +1111,11 @@ msgstr ""
 
 #, python-format
 msgid "Bookmark for button %s:"
-msgstr ""
+msgstr "Favori pour le bouton %s:"
 
 #
 msgid "Bookmark for button %s (long):"
-msgstr ""
+msgstr "Favori pour le bouton %s (long)"
 
 #
 msgid "Bookmarks"
@@ -1199,16 +1199,17 @@ msgstr ""
 
 #, python-format
 msgid "Can not change the partition ID for %s"
-msgstr ""
+msgstr "Imposiible de changer l'ID de la partition pour %s"
 
 msgid "Can not find any WirelessLan Module\n"
-msgstr ""
+msgstr "Impossible de trouver un module sans fil \n"
 
 #, python-format
 msgid ""
 "Can not format device /dev/%s.\n"
 "refresh partition information failed!"
-msgstr ""
+msgstr "Impossible de formatter le péripherique /dev/%s.\n"
+"Erreur lors du rafraîchissement des informations de partition!"
 
 msgid "Can not open 'fan_pwm'"
 msgstr ""
@@ -1220,16 +1221,18 @@ msgstr ""
 msgid ""
 "Can not umount device /dev/%s.\n"
 "Maybe some files of the filesystem are open"
-msgstr ""
+msgstr "Impossible de démonter le péripherique /dev/%s.\n"
+"Peut-être que des fichiers sont ouverts sur ce système de fichiers"
 
 #, python-format
 msgid ""
 "Can not use this mount point.(%s) \n"
 "Please select another mount point."
-msgstr ""
+msgstr "Impossible d'utiliser ce point de montage. (%s) \n"
+"Veuillez choisir un autre point de montage"
 
 msgid "Can't cancel during upgrade!!"
-msgstr ""
+msgstr "Impossible d'annuler lors de la mise jour!"
 
 msgid ""
 "Can't disconnect doring connecting..\n"
@@ -1237,22 +1240,22 @@ msgid ""
 msgstr ""
 
 msgid "Can't download the checksum file."
-msgstr ""
+msgstr "Impossible de télécharger le fichier checksum"
 
 msgid "Can't download the firmware file."
-msgstr ""
+msgstr "Impossible de télécharger le fichier du firmware"
 
 msgid "Can't find /usr/bin/md5sum"
-msgstr ""
+msgstr "Impossible de trouver le fichier /usr/bin/md5sum"
 
 msgid "Can't found MD5 file."
-msgstr ""
+msgstr "Impossible de trouver le fichier MD5"
 
 msgid "Can't found binary file."
-msgstr ""
+msgstr "Impossible de trouver le fichier binaire"
 
 msgid "Can't found device file!!"
-msgstr ""
+msgstr "Impossible de trouver le fichier de péripherique!"
 
 msgid "Can't found model name."
 msgstr ""
@@ -1266,7 +1269,8 @@ msgstr ""
 msgid ""
 "Can't umount %s. \n"
 "Maybe device or resource busy."
-msgstr ""
+msgstr "Impossible de démonter %s. \n"
+"Péripherique ou ressource occupé"
 
 #
 msgid "Cancel"
@@ -1285,7 +1289,7 @@ msgid "Catalan"
 msgstr "Catalan"
 
 msgid "Category Name"
-msgstr ""
+msgstr "Nom de la catégorie"
 
 #
 msgid "Change bouquets in quickzap"
@@ -1310,10 +1314,10 @@ msgstr "changer taille pas"
 
 #
 msgid "Channel"
-msgstr "Canal"
+msgstr "Chaîne"
 
 msgid "Channel (1~13)"
-msgstr "Canal (1~13)"
+msgstr "Chaîne (1~13)"
 
 #
 msgid "Channel Selection"
@@ -1368,7 +1372,7 @@ msgid "Choose Tuner"
 msgstr "Choisir tuner"
 
 msgid "Choose a timer list style"
-msgstr ""
+msgstr "Choisir le type de la liste des programmation"
 
 #
 msgid "Choose a wireless network"
@@ -1387,7 +1391,7 @@ msgid "Choose bouquet"
 msgstr "Choisir le bouquet"
 
 msgid "Choose folder"
-msgstr "Choisir dossier"
+msgstr "Choisir un dossier"
 
 msgid "Choose remote control picture for help screen"
 msgstr ""
@@ -1572,7 +1576,7 @@ msgid "Copy"
 msgstr "Copie"
 
 msgid "Could not load Medium! No disc inserted?"
-msgstr "Ne peux charger le support! Aucun DVD inséré?"
+msgstr "Ne peut charger le support! Aucun DVD inséré?"
 
 #
 msgid "Could not open Picture in Picture"
@@ -1581,11 +1585,11 @@ msgstr "N'a pu ouvrir l'image dans l'image"
 #
 #, python-format
 msgid "Couldn't record due to conflicting timer %s"
-msgstr "Enregistrement impossible! Conflit programmation %s!"
+msgstr "Enregistrement impossible! Conflit de programmation %s!"
 
 #, python-format
 msgid "Couldn't record due to invalid service %s"
-msgstr ""
+msgstr "Enregistrement impossible en raison d'un service incorrect %s"
 
 msgid "Crashlog Reporting"
 msgstr ""
@@ -1612,7 +1616,7 @@ msgstr ""
 "%s"
 
 msgid "Create filesystem, please wait ..."
-msgstr ""
+msgstr "Création du systeme de fichier veuillez patienter..."
 
 #
 msgid "Create movie folder failed"
@@ -1630,7 +1634,7 @@ msgid "Creating directory %s failed."
 msgstr "Echec création répertoire %s."
 
 msgid "Creating filesystem Error"
-msgstr ""
+msgstr "Erreur lors de la création du systeme de fichiers"
 
 #
 msgid "Creating partition failed"
@@ -1724,7 +1728,7 @@ msgid "DVB-S2"
 msgstr "DVB-S2"
 
 msgid "DVD Drive"
-msgstr ""
+msgstr "Disque DVD"
 
 #
 msgid "DVD File Browser"
@@ -1790,12 +1794,14 @@ msgstr "Effacer"
 msgid ""
 "Delete directory failed!\n"
 "%s"
-msgstr ""
+msgstr "Echec de suppression du repertoire!\n"
+"%s"
 
 msgid ""
 "Delete directory failed!\n"
 "Maybe directory is not empty."
-msgstr ""
+msgstr "Echec de suppression du repertoire!\n"
+"Le repertoire n'est peut-être pas vide"
 
 msgid "Delete entry"
 msgstr "Retire entrée"
@@ -1836,7 +1842,7 @@ msgid "Detected NIMs:"
 msgstr "Tuners détectés:"
 
 msgid "Device Initialization finished sucessfully!"
-msgstr ""
+msgstr "Initialisation du péripherique terminé avec succés!"
 
 msgid "Device not found."
 msgstr "Périphérique non trouvé."
@@ -2112,7 +2118,7 @@ msgstr ""
 
 msgid ""
 "Do you want to use VTi ZerO to remove some packages which you do not need ?"
-msgstr ""
+msgstr "Voulez vous utiliser VTi ZerO pour supprimer les packets dont vous n'avez pas besoin?"
 
 msgid "Do you want to view a tutorial?"
 msgstr "Voulez-vous voir un tutoriel?"
@@ -2179,7 +2185,7 @@ msgid "Downloading..."
 msgstr "Téléchargement..."
 
 msgid "Duo/Solo was not support."
-msgstr ""
+msgstr "Duo/Solo ne sont pas supportés"
 
 #
 msgid "Dutch"
@@ -2243,7 +2249,7 @@ msgid "Edit upgrade source url."
 msgstr "Editer url source mise à jour."
 
 msgid "EditSetting"
-msgstr ""
+msgstr "Edition des paramètres"
 
 #
 msgid "Electronic Program Guide"
@@ -2301,7 +2307,7 @@ msgid "Enabled"
 msgstr "Activer"
 
 msgid "Encrypt"
-msgstr ""
+msgstr "Encrypter"
 
 #
 msgid "Encrypted: "
@@ -2546,7 +2552,7 @@ msgid "Fan %d"
 msgstr "%d ventilateur "
 
 msgid "Fan Control"
-msgstr ""
+msgstr "Contrôle du ventilateur"
 
 msgid "Fan basic action"
 msgstr ""
